@@ -1,0 +1,13 @@
+{
+  "name": "KeyGlyph",
+  "short_name": "KeyGlyph",
+  "lang": "ja",
+  "theme_color": "#d4af37",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "https://key-glyph.revantoa.workers.dev",
+  "icons": [
+    { "src": "q16g4Ku-.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "9Ll55ri2.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

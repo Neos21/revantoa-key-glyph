@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "key-glyph",
+  "compatibility_date": "2025-09-17",
+  "account_id": "0d0188bb032f7edfb344a07f0afad3ee",
+  "main": "./server/index.ts",
+  "assets": {
+    "directory": "./build/client",
+    "not_found_handling": "single-page-application"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "key-glyph",
+      "database_id": "c46c16be-6207-4bb7-b8cb-4dc90ffdb7d2"
+    }
+  ],
+  "preview_urls": false,
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true
+    }
+  },
+  "placement": {
+    "mode": "smart"
+  }
+}
