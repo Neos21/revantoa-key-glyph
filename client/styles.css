@@ -55,3 +55,19 @@ textarea {
   resize: none;
   -webkit-tap-highlight-color: transparent;
 }
+
+#l {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  & span {
+    margin: 0 .25rem;
+    color: #666;
+  }
+}

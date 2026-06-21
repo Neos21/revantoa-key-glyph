@@ -53,6 +53,15 @@ export function Layout({ children }: { children: ReactNode }): ReactElement {
       </head>
       <body suppressHydrationWarning>
         {children}
+        
+        <div id="l">
+          <a href="https://colonet.revantoa.workers.dev" target="_blank">Colonet</a>
+          <span>|</span>
+          <a href="https://cipher-feed.revantoa.workers.dev" target="_blank">CipherFeed</a>
+          <span>|</span>
+          <a href="https://fight-for-your-right.revantoa.workers.dev" target="_blank">Fight For Your Right</a>
+        </div>
+        
         <ScrollRestoration />
         <Scripts />
       </body>
